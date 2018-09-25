@@ -6,6 +6,11 @@ spring:
     password: neiwang-zhongguangzhangshi
   jpa:
     show-sql: true
+  rabbitmq:
+    addresses: 192.168.99.100
+    host: 5672
+    username: guest
+    password: guest
 server:
   port: 10011
 girl:
