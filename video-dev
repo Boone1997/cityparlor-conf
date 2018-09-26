@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://117.78.60.51:3306/test4?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: neiwang-zhongguangzhangshi
+  jpa:
+    show-sql: true
+  rabbitmq:
+#    addresses: 192.168.99.100
+    addresses: 127.0.0.1
+    host: 5672
+    username: guest
+    password: guest
+server:
+  port: 10012
+girl:
+  name: lili
+  age: 22
