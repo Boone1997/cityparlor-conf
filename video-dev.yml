@@ -17,3 +17,6 @@ server:
 girl:
   name: lili
   age: 222
+mybatis:
+    mapperLocations: classpath:mapper/*.xml,classpath:mapper/*/*.xml
+#    configLocation: classpath:mybatis.xml
