@@ -21,6 +21,8 @@ mybatis:
     mapperLocations: classpath:mapper/*.xml,classpath:mapper/*/*.xml
 #    configLocation: classpath:mybatis.xml
 feign:
+  hystrix:
+    enabled: true
   client:
     config:
       default:
