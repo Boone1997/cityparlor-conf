@@ -20,3 +20,9 @@ girl:
 mybatis:
     mapperLocations: classpath:mapper/*.xml,classpath:mapper/*/*.xml
 #    configLocation: classpath:mybatis.xml
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 2000
+        readTimeout: 2000
